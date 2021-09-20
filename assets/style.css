@@ -85,7 +85,6 @@ header {
     margin: 10px 100px;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: flex-start;
 }
 
 .work {
@@ -100,6 +99,25 @@ header {
     font-size: 50px;
 }
 
+ #surfreport {
+     min-width: 1048px;
+     background-image: url("https://placedog.net/1000");
+ }
+
+ .work-content-container {
+     display: flex;
+     width: 1048px;
+     flex-wrap: wrap;
+     justify-content: flex-end;
+     margin-left: 330px;
+ }
+ .work-content {
+     min-width: 450px;
+     background-image: url("https://placedog.net/200");
+     min-height: 200px;
+ }
+ 
+ 
 /* contact */
 
 .contact-container {
