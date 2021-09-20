@@ -1,0 +1,130 @@
+/* global styling */
+* {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: rgb(31, 30, 30);
+}
+
+a {
+    text-decoration:none;
+}
+
+ /* header styling */
+
+header {
+    background-color: rgb(90, 61, 61);
+ }
+ .topnav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    align-items: center;
+ }
+ .topnav ul li{
+    display: inline;
+    margin: 10px ;
+    border-bottom: 5px solid brown;
+    padding-bottom: 2px;
+    width: 30px;
+ }
+
+ .topnav a {
+    text-decoration: none;
+ }
+
+ .topnav h1 {
+     font-size: 30px;
+     background-color: rgb(58, 42, 42);
+     padding: 10px 10px 10px 50px;
+ }
+/* sub title */
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 200px;
+    background-image: url("https://image.shutterstock.com/image-photo/collage-different-dogs-on-white-260nw-1724568655.jpg");
+}
+.subtitle-content {
+    background-color: brown;
+    font-size: 30px;
+    padding:10px;
+    margin-right: 50px;
+}
+ /* about me block */
+
+ .about-me-container {
+     display: flex;
+     margin: 10px 100px;
+     align-items: center;
+ }
+
+ .about-me {
+    min-width: 300px;
+    margin: 20px;
+ }
+
+ .aboutme-header {
+     min-height: 200px;
+     border-right: 10px solid black;
+     font-size: 50px;
+ }
+
+
+/* work section */
+.work-container {
+    display: flex;
+    margin: 10px 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.work {
+   min-width: 300px;
+   margin: 20px;
+   min-height: 500px;
+}
+
+.work-header {
+    min-height: 200px;
+    border-right: 10px solid black;
+    font-size: 50px;
+}
+
+/* contact */
+
+.contact-container {
+    display: flex;
+    margin: 10px 100px;
+    align-items: center;
+}
+
+.contact {
+    min-width: 300px;
+    display: inline;
+    margin: 20px;
+}
+
+.contact-header {
+    min-height: 200px;
+    border-right: 10px solid black;
+    font-size: 50px;
+}
+
+li.contact {
+    margin: 80px;
+}
+
+ul.contact-ul {
+    min-width: 90%;
+}
+
