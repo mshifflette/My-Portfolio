@@ -74,7 +74,7 @@ header {
 
  .aboutme-header {
      min-height: 200px;
-     border-right: 10px solid black;
+     border-right: 10px solid brown;
      font-size: 50px;
  }
 
@@ -95,13 +95,14 @@ header {
 
 .work-header {
     min-height: 200px;
-    border-right: 10px solid black;
+    border-right: 10px solid brown;
     font-size: 50px;
 }
 
  #surfreport {
      min-width: 1048px;
      background-image: url("https://placedog.net/1000");
+     border: 3px solid brown;
  }
 
  .work-content-container {
@@ -115,9 +116,29 @@ header {
      min-width: 450px;
      background-image: url("https://placedog.net/200");
      min-height: 200px;
+     border: 3px solid brown;
  }
  
- 
+ .work-content-title {
+     background-color: brown;
+     padding: 10px;
+     max-width: 200px;
+     text-align: center;
+     margin: 10px;
+     margin-left: 0px;
+ }
+#surfreport, .work-content ,.work-content-title {
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+#surfreport:hover,
+.work-content:hover,
+.work-content-title:hover {
+    box-shadow: inset  1px 1px
+    rgb(167, 44, 44), 0 0 15px
+    rgb(114, 13, 13);
+}
 /* contact */
 
 .contact-container {
@@ -134,7 +155,7 @@ header {
 
 .contact-header {
     min-height: 200px;
-    border-right: 10px solid black;
+    border-right: 10px solid brown;
     font-size: 50px;
 }
 
