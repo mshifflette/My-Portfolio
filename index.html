@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -24,16 +25,12 @@
     </header>
     <!--main content  -->
     <div class="subtitle">
-        <h2 class="subtitle-content">Welcome to my dogfolio!</h2>
+        <h2 class="subtitle-content">Welcome to my Portfolio!</h2>
     </div>
     <!-- about me section -->
-    <section id="aboutme" class="about-me-container">
-        <h3 class="about-me aboutme-header">About Me</h3>
-        <p class="about-me aboutme-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quo eum
-            magnam iste omnis accusantium eaque minus quam! Atque non obcaecati tenetur ea voluptas ipsum omnis,
-            voluptatum magni reiciendis necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-            porro iste dolore dignissimos harum praesentium est maxime mollitia! Asperiores necessitatibus porro natus
-            ad id a error, rerum provident. Tenetur, mollitia.<br>
+    <section id="aboutme" class="about-me-container row">
+        <h3 class="about-me aboutme-header col-2">About Me</h3>
+        <p class="about-me aboutme-content col-8">Hello welcome to my Portfolio! My name is Marco Shifflette I am from the Seattle area. I am currently enrolled in the University of Washington Coding bootcamp. Below is some of the work i have already completed in my class.<br>
             <br>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus iste nemo aliquid mollitia? Cumque,
             quam rerum debitis voluptatum totam placeat quod obcaecati labore doloribus ut voluptate maxime unde
@@ -43,37 +40,42 @@
         </p>
     </section>
     <!-- Work Section -->
-    <section class="work-container">
-        <h3 class="work work-header">Work</h3>
+    <section class="work-container row">
+        <h3 class="work work-header ">Work</h3>
+        <a href="https://chuckdvchek.github.io/thirsty-thursdays/" target="_blank">
             <div class="work" id="surfreport">
-                <div class="work-content-title">
-                    Surf report
+                <div class="work-content-title ">
+                    Thirsty Thursdays
                 </div>
             </div>
+        </a>
             <div class="work-content-container">
-                <div class="work work-content">
-                    <div class="work-content-title"> Wall</div>
+                <a href="https://mshifflette.github.io/fun-quiz-game/" target="_blank">
+                <div class="work work-content" id="quiz">
+                    <div class="work-content-title">Pokemon Quiz game!</div>
                 </div>
-                <div class="work work-content">
-                    <div class="work-content-title">Calculator</div>
+                </a>
+                <a href="https://mshifflette.github.io/random-password-generator/" target="_blank">
+                <div class="work work-content" id="password">
+                    <div class="work-content-title">Random Password Generator</div>
                 </div>
-                <div class="work work-content">
-                    <div class="work-content-title">Pastel Puzzels</div>
+                </a>
+                <a href="https://mshifflette.github.io/work-day-scheduler/" target="_blank">
+                <div class="work work-content" id="scheduler">
+                    <div class="work-content-title">Work Day Scheduler</div>
                 </div>
-                <div class="work work-content">
-                    <div class="work-content-title">Run Buddy</div>
-                </div>
+                </a>
             </div>
     </section>
     <!-- contact me section -->
-    <section id="contact" class="contact-container">
-        <h3 class="contact contact-header">Contact <br>Me</h3>
+    <section id="contact" class="contact-container row">
+        <h3 class="contact contact-header col-2">Contact <br>Me</h3>
         <ul class="contact-ul">
-            <li class="contact"><a href="#">555.555.5555</a></li>
-            <li class="contact"><a href="#">marco@marco.com</a></li>
-            <li class="contact"><a href="https://github.com/mshifflette" target="_blank">GitHub</a></li>
-            <li class="contact"><a href="#">Twitter</a></li>
-            <li class="contact"><a href="#">Spotify</a></li>
+            <li class="contact "><a href="#">555.555.5555</a></li>
+            <li class="contact "><a href="#">marco@marco.com</a></li>
+            <li class="contact "><a href="https://github.com/mshifflette" target="_blank">GitHub</a></li>
+            <li class="contact "><a href="https://www.linkedin.com/in/marco-shifflette/" target="_blank">LinkedIn</a></li>
+            
         </ul>
     </section>
 </body>

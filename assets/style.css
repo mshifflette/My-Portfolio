@@ -68,61 +68,61 @@ header {
  }
 
  .about-me {
-    min-width: 300px;
     margin: 20px;
  }
 
  .aboutme-header {
-     min-height: 200px;
      border-right: 10px solid brown;
      font-size: 50px;
+     padding-right: 10px;
  }
 
 
 /* work section */
-.work-container {
-    display: flex;
-    margin: 10px 100px;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 
 .work {
-   min-width: 300px;
    margin: 20px;
-   min-height: 500px;
+   
 }
 
 .work-header {
-    min-height: 200px;
     border-right: 10px solid brown;
-    font-size: 50px;
+    font-size:5vh;
+    padding-right: 10px;
+    width: 15vw;
 }
 
  #surfreport {
-     min-width: 1048px;
-     background-image: url("https://placedog.net/1000");
+     
+     background-image:  url("img/thursdays.png");
      border: 3px solid brown;
+     height: 30vh;
+     width: 40vw;
  }
 
- .work-content-container {
-     display: flex;
-     width: 1048px;
+ .work-container {
      flex-wrap: wrap;
-     justify-content: flex-end;
-     margin-left: 330px;
+     margin: 10px 100px;
+    
+     
  }
  .work-content {
-     min-width: 450px;
-     background-image: url("https://placedog.net/200");
-     min-height: 200px;
      border: 3px solid brown;
+     height: 9vh;
  }
- 
+ #quiz{
+    background-image: url(img/quizgame.png);
+ }
+ #password{
+    background-image: url(img/generator.png);
+ }
+ #scheduler{
+    background-image: url(img/schduler.png);
+ }
  .work-content-title {
      background-color: brown;
      padding: 10px;
-     max-width: 200px;
      text-align: center;
      margin: 10px;
      margin-left: 0px;
@@ -148,22 +148,15 @@ header {
 }
 
 .contact {
-    min-width: 300px;
     display: inline;
     margin: 20px;
 }
 
 .contact-header {
-    min-height: 200px;
     border-right: 10px solid brown;
     font-size: 50px;
+    padding-right: 10px;
+    
 }
 
-li.contact {
-    margin: 80px;
-}
-
-ul.contact-ul {
-    min-width: 80%;
-}
 
