@@ -95,7 +95,7 @@ header {
 
  #surfreport {
      
-     background-image:  url("img/thursdays.png");
+     background-image:  url("img/tomadoggy.png");
      border: 3px solid brown;
      height: 30vh;
      width: 40vw;
@@ -115,7 +115,7 @@ header {
     background-image: url(img/quizgame.png);
  }
  #password{
-    background-image: url(img/generator.png);
+    background-image: url(img/thursdays.png);
  }
  #scheduler{
     background-image: url(img/schduler.png);
